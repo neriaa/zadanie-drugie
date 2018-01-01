@@ -6,12 +6,12 @@ body{
 }
 
 .title h1{
-font-size:22px;
-padding: 40px;
-font-family: 'Vidaloka', serif;
-color:grey;
-text-transform: uppercase;
-color: #333D38;
+	font-size:22px;
+	padding: 40px;
+	font-family: 'Vidaloka', serif;
+	color:grey;
+	text-transform: uppercase;
+	color: #333D38;
 } 
 
 .text p{
