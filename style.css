@@ -1,23 +1,18 @@
-body{
-	text-align: center;
-	margin: 100px 0;
-	background-color: #B0BDB6;
-	
-}
+body {
+  text-align: center;
+  margin: 100px 0;
+  background-color: #B0BDB6; }
+  body .title h1 {
+    font-size: 22px;
+    padding: 40px;
+    font-family: 'Vidaloka', serif;
+    color: grey;
+    text-transform: uppercase;
+    color: #333D38; }
+  body .text p {
+    font-size: 13px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #333D38; }
 
-.title h1{
-font-size:22px;
-padding: 40px;
-font-family: 'Vidaloka', serif;
-color:grey;
-text-transform: uppercase;
-color: #333D38;
-} 
-
-.text p{
-	font-size:13px;
-	padding:10px;
-	font-family: 'Raleway', sans-serif;
-	color: #333D38;
-
-}
+/*# sourceMappingURL=style.css.map */
