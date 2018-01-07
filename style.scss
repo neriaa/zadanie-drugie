@@ -1,0 +1,28 @@
+
+$fontColor: #2B3F4A;
+$backgroundColor: #B0BDB6;
+$fontSizeh1: 22px;
+
+body{
+  text-align: center;
+  margin: 100px 0;
+  background-color: $backgroundColor;
+  
+  .title h1{
+    font-size:$fontSizeh1;
+    padding: 40px;
+    font-family: 'Vidaloka', serif;
+    color:grey;
+    text-transform: uppercase;
+    color: $fontColor;
+  } 
+
+  .text p{
+    font-size:13px;
+    padding:10px;
+    font-family: 'Raleway', sans-serif;
+    color: $fontColor;
+
+}
+
+}
