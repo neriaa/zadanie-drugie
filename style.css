@@ -8,30 +8,11 @@ body {
     font-family: 'Vidaloka', serif;
     color: grey;
     text-transform: uppercase;
-    color: #333D38; }
+    color: #A39746; }
   body .text p {
     font-size: 13px;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
-    color: #333D38; }
+    color: #A39746; }
 
-<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
-=======
-.title h1{
-	font-size:22px;
-	padding: 40px;
-	font-family: 'Vidaloka', serif;
-	color:grey;
-	text-transform: uppercase;
-	color: #333D38;
-} 
-
-.text p{
-	font-size:13px;
-	padding:10px;
-	font-family: 'Raleway', sans-serif;
-	color: #333D38;
-
-}
->>>>>>> 6c81aa5e3c29296a730f543e98381890e6ff5b35
