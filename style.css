@@ -1,18 +1,39 @@
-body {
-  text-align: center;
-  margin: 100px 0;
-  background-color: #B0BDB6; }
-  body .title h1 {
-    font-size: 22px;
-    padding: 40px;
-    font-family: 'Vidaloka', serif;
-    color: grey;
-    text-transform: uppercase;
-    color: #2B3F4A; }
-  body .text p {
-    font-size: 13px;
-    padding: 10px;
-    font-family: 'Raleway', sans-serif;
-    color: #2B3F4A; }
+/*
+Error: Invalid CSS after "...tColor: #2B3F4A": expected "{", was ";"
+        on line 3 of C:\Users\Martyna\Desktop\Nowy folder (3)\style.scss
 
-/*# sourceMappingURL=style.css.map */
+1: 
+2: <<<<<<< HEAD
+3: $fontColor: #2B3F4A;
+4: =======
+5: $fontColor: #A39746;
+6: >>>>>>> devfirst
+7: $backgroundColor: #B0BDB6;
+8: $fontSizeh1: 22px;
+
+Backtrace:
+C:\Users\Martyna\Desktop\Nowy folder (3)\style.scss:3
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...tColor: #2B3F4A\": expected \"{\", was \";\"\A         on line 3 of C:\Users\Martyna\Desktop\Nowy folder (3)\style.scss\A \A 1: \A 2: <<<<<<< HEAD\A 3: $fontColor: #2B3F4A;\A 4: =======\A 5: $fontColor: #A39746;\A 6: >>>>>>> devfirst\A 7: $backgroundColor: #B0BDB6;\A 8: $fontSizeh1: 22px;"; }
