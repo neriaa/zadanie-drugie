@@ -1,0 +1,10 @@
+java -jar /c/Users/Martyna/Desktop/tekst [--errors-only] [--Werror] [--exit-zero-always]
+       [--asciiquotes] [--no-stream] [--format gnu|xml|json|text]
+       [--filterfile FILENAME] [--filterpattern PATTERN]
+       [--html] [--skip-non-html] [--no-langdetect]
+       [--help] [--verbose] [--version] FILES
+
+
+
+
+autoprefixer-cli -o style.prefixed.css style.css
